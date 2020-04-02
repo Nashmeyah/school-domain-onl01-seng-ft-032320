@@ -1,6 +1,6 @@
 class School
   #defines only the getter
-  attr_reader :roster
+  attr_reader :roster, :school
   # Create empty roster
   def initialize(school)
     @roster = {}
